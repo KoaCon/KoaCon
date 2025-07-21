@@ -128,39 +128,48 @@
                     <div class="form-row">
                         <div class="form-group">
                           <!--<h3>Ohjelman haku </h3> -->
-                            <label for="own_Name">Perustiedot*</label>
-                            <input type="text" id="own_Name" name="own_Name" placeholder="Nimi, jolla haluat että sinut esitellään lavalla sekä kilpailu johon haluat osallistua:
-" required>
-                        </div>
-                    </div>
+                            <label for="own_Name">Perustiedot</label>
+        <input type="text" id="own_Name" name="own_Name" placeholder="Lavamini sekä kisa johon osallistut:" required>
+      </div>
+    </div>
 
-                    <div class="form-row">
-                        <div class="form-group">
-                          <label for="puvusta_description">Cosplay *</label>
-                          <small></small>
-                          <textarea id="puvusta_description" name="puvusta_description" rows="3" placeholder="Kuvailu asusta ja sen teko prosessista tai mistä puku on hankittu:" required></textarea>
-                        </div>
-                    </div>
-                    <div class="form-row">
-                      <div class="form-group">
-                        <label for="refer_Photos">Mistä mediasta hahmo on, kuka hän on, ja esimerkki kuvia hahmosta tuomareille:
- *</label>
-                        <small>Liitä ja lähetä kuvia</small>
-                        <input type="file" id="refer_Photos" name="refer_Photos[]" accept="image/*" multiple required>
-                      </div>
-                    </div>
-                    <div class="form-group terms-group">
-                        <div class="checkbox">
-                            <input type="checkbox" id="terms" name="terms" required>
-                            <label for="terms">Hyväksyn  <a href="#">tapahtuman käyttöehdot</a> *</label>
-                        </div>
-                    </div>
-                    <div class="form-submit">
-                        <button type="submit" class="btn btn-primary">Lähetä hakemus</button>
-                        <p class="required-note">* Pakolliset kentät</p>
-                    </div>
-                </form>
-            </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="puvusta_description">Cosplay</label>
+        <textarea id="puvusta_description" name="puvusta_description" rows="3" placeholder="Kuvailu asusta ja sen tekoprosessista tai mistä puku on hankittu:" required></textarea>
+      </div>
+    </div>
+<div class="form-row">
+      <div class="form-group">
+        <label for="cosplay_name">Hahmo jota cossaat</label>
+        <textarea id="cosplay_name" name="cosplay_name" rows="3" placeholder="hahmon nimi ja miksi cossaat juuri häntä:" required></textarea>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="email">sähköposti</label>
+        <textarea id="email" name="email" rows="3" placeholder="Sähköposti osoitteesi:" required></textarea>
+      </div>
+    </div>
+    <div class="form-row">
+      <small>Referenssi kuvia hahmosta</small>
+      <input type="file" id="Refer_Photos" name="Refer_Photos" accept="image/" multiple required>
+    </div>
+
+    <div class="form-group terms-group">
+      <div class="checkbox">
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">Hyväksyn että minusta saa ottaa kuvia kisan aikana</label>
+      </div>
+    </div>
+
+    <div class="form-submit">
+      <button type="submit" class="btn btn-primary">Lähetä hakemus</button>
+      <p class="required-note"> Pakolliset kentät</p>
+    </div>
+
+  </form>
+</div>
         </div>
     </section>
     <!-- Footer -->
