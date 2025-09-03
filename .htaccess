@@ -4,4 +4,4 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
 
 #Alternate default index page
-DirectoryIndex etusivu.html
+DirectoryIndex index.html
