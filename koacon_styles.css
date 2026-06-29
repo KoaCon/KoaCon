@@ -285,7 +285,6 @@ img {
 }
 
 .hero-buttons {
-    position: absolute;
     display: flex;
     justify-content: center;
     gap: 20px;
